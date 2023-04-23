@@ -1,10 +1,15 @@
 {
-  "name": "ajeeb",
+  "name": "@devhaven/ajeeb",
   "version": "0.0.1",
   "description": "Ajeeb Component Library",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "rollup": "rollup -c",
     "test": "npm run test",
     "ladle": "ladle serve",
     "ladle:build": "ladle build"
@@ -17,11 +22,19 @@
   },
   "devDependencies": {
     "@ladle/react": "^2.12.2",
+    "@rollup/plugin-commonjs": "^24.1.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-terser": "^0.4.1",
+    "@rollup/plugin-typescript": "^11.1.0",
     "@types/react": "^18.0.38",
     "@types/react-dom": "^18.0.11",
     "autoprefixer": "^10.4.14",
     "class-variance-authority": "^0.5.2",
     "postcss": "^8.4.23",
+    "rollup": "^3.20.7",
+    "rollup-plugin-dts": "^5.3.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript-paths": "^1.4.0",
     "tailwindcss": "^3.3.1",
     "typescript": "^5.0.4"
   }

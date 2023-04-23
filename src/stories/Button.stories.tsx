@@ -1,5 +1,6 @@
 import type { Story } from "@ladle/react";
 import { Button, ButtonProps } from "../components/Button";
+import React from "react";
 
 export const Submit: Story<ButtonProps> = (props: ButtonProps) => (
   <Button type={"submit"} {...props}>
