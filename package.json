@@ -1,0 +1,28 @@
+{
+  "name": "ajeeb",
+  "version": "0.0.1",
+  "description": "Ajeeb Component Library",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "scripts": {
+    "test": "npm run test",
+    "ladle": "ladle serve",
+    "ladle:build": "ladle build"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@ladle/react": "^2.12.2",
+    "@types/react": "^18.0.38",
+    "@types/react-dom": "^18.0.11",
+    "autoprefixer": "^10.4.14",
+    "class-variance-authority": "^0.5.2",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.1",
+    "typescript": "^5.0.4"
+  }
+}
