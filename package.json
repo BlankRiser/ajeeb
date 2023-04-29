@@ -13,7 +13,7 @@
     "test": "npm run test",
     "dev": "npm run ladle",
     "ladle": "ladle serve",
-    "ladle:build": "ladle build && npm run ladle:preview",
+    "ladle:build": "ladle build",
     "ladle:preview": "npx ladle preview",
     "build": "npm run rollup && npm run ladle:build"
   },
